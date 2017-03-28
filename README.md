@@ -80,4 +80,5 @@
 ```
 
 ###效果图:
-[gif]()
+
+[gif](https://github.com/hkjin/KJCalendar/blob/master/KJCalendar/Explain/KJGalendar.gif?raw=true)
