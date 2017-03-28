@@ -81,4 +81,4 @@
 
 ###效果图:
 
-[gif](https://github.com/hkjin/KJCalendar/blob/master/KJCalendar/Explain/KJGalendar.gif?raw=true)
+![image](https://github.com/hkjin/KJCalendar/blob/master/KJCalendar/Explain/KJGalendar.gif?raw=true)
