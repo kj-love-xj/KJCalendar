@@ -33,6 +33,7 @@
 		50B803CE1E8A41B700C556D5 /* KJMonthModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B803CC1E8A41B700C556D5 /* KJMonthModel.m */; };
 		50B803D41E8A422200C556D5 /* KJCalendarFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B803D11E8A422200C556D5 /* KJCalendarFlowLayout.m */; };
 		50B803D51E8A422200C556D5 /* KJCalendarUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B803D31E8A422200C556D5 /* KJCalendarUtility.m */; };
+		50B803D81E8A4D8D00C556D5 /* KJGalendar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 50B803D71E8A4D8D00C556D5 /* KJGalendar.gif */; };
 		50DB56EF1E8697CB0076DBA3 /* KJCalendarMonthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DB56ED1E8697CB0076DBA3 /* KJCalendarMonthCell.m */; };
 		50DB56F01E8697CB0076DBA3 /* KJCalendarMonthCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50DB56EE1E8697CB0076DBA3 /* KJCalendarMonthCell.xib */; };
 		50DB56F31E869D700076DBA3 /* KJCalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DB56F21E869D700076DBA3 /* KJCalendarDayCell.m */; };
@@ -94,6 +95,7 @@
 		50B803D11E8A422200C556D5 /* KJCalendarFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCalendarFlowLayout.m; sourceTree = "<group>"; };
 		50B803D21E8A422200C556D5 /* KJCalendarUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCalendarUtility.h; sourceTree = "<group>"; };
 		50B803D31E8A422200C556D5 /* KJCalendarUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCalendarUtility.m; sourceTree = "<group>"; };
+		50B803D71E8A4D8D00C556D5 /* KJGalendar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = KJGalendar.gif; sourceTree = "<group>"; };
 		50DB56EC1E8697CB0076DBA3 /* KJCalendarMonthCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCalendarMonthCell.h; sourceTree = "<group>"; };
 		50DB56ED1E8697CB0076DBA3 /* KJCalendarMonthCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCalendarMonthCell.m; sourceTree = "<group>"; };
 		50DB56EE1E8697CB0076DBA3 /* KJCalendarMonthCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJCalendarMonthCell.xib; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 		505F2B241E8256E900726C4B /* KJCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				50B803D61E8A4D1700C556D5 /* Explain */,
 				505F2B3C1E8259C600726C4B /* KJCalendar */,
 				505F2B281E8256E900726C4B /* AppDelegate.h */,
 				505F2B291E8256E900726C4B /* AppDelegate.m */,
@@ -235,6 +238,14 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
+		50B803D61E8A4D1700C556D5 /* Explain */ = {
+			isa = PBXGroup;
+			children = (
+				50B803D71E8A4D8D00C556D5 /* KJGalendar.gif */,
+			);
+			path = Explain;
+			sourceTree = "<group>";
+		};
 		50DB56EB1E8697A90076DBA3 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				505F2B351E8256E900726C4B /* LaunchScreen.storyboard in Resources */,
+				50B803D81E8A4D8D00C556D5 /* KJGalendar.gif in Resources */,
 				505F2B321E8256E900726C4B /* Assets.xcassets in Resources */,
 				505F2B301E8256E900726C4B /* Main.storyboard in Resources */,
 				50DB56F51E869D900076DBA3 /* KJCalendarDayCell.xib in Resources */,
